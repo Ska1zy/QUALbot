@@ -1,0 +1,14 @@
+{
+  "default_subscription_days": 5,
+  "hwid_limit": 5,
+  "traffic_limit_bytes": 0,
+  "traffic_limit_strategy": "NO_RESET",
+  "external_squad_uuid": "3b755024-3d35-4217-9f01-311fcc837d3e",
+  "internal_squad_uuids": [
+    "c161669d-1a38-4b43-9fa7-24b6b556858a",
+    "914dac8a-414e-42fc-8eb4-029947cf658c",
+    "0196054b-5ce4-403d-adda-8416b102096e",
+    "056863a0-c0c0-41b3-a870-532198986b3e"
+  ],
+  "description_template": "Управляется ботом"
+}

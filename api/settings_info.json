@@ -1,0 +1,29 @@
+{
+  "settings_structure": {
+    "default_subscription_days": {
+      "value_type": "integer",
+      "description": "Дни подписки при первой регистрации.",
+      "example": 5
+    },
+    "hwid_limit": {
+      "value_type": "integer",
+      "description": "Лимит привязанных устройств (HWID). Поставишь 1 — клиент сможет зайти только с одного ПК/телефона.",
+      "example": 5
+    },
+    "traffic_limit_bytes": {
+      "value_type": "integer",
+      "description": "Объем трафика. 0 — безлимит. 1073741824 — это 1 ГБ.",
+      "example": 0
+    },
+    "internal_squad_uuids": {
+      "value_type": "array of strings",
+      "description": "Список UUID внутренних серверов, которые будут доступны пользователю.",
+      "include": "Все локации (Германия, Нидерланды и т.д.)"
+    },
+    "external_squad_uuid": {
+      "value_type": "string",
+      "description": "UUID внешнего сквада (Qual). Обычно используется один для всех.",
+      "example": "3b755024-3d35-4217-9f01-311fcc837d3e"
+    }
+  }
+}
